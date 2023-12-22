@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar HTML dengan AMCC</title>
+  </head>
+  <body>
+    <!-- Penerapan Semantic html : header -->
+    <header>
+      <h1>Pendaftaran AMCC</h1>
+      <p>Daftarkan diri Anda untuk menjadi member AMCC.</p>
+      <img src="gambar.jpg" alt="Gambar Pendaftaran" width="150px" />
+    </header>
+
+    <!-- Penerapan Semantic html : Main -->
+    <main>
+      <h2>Formulir Pendaftaran</h2>
+      <!-- Penerapan Form -->
+      <form action="submit_form.php" method="post">
+        <!-- Penerapan input text -->
+        <label for="nama">Nama:</label>
+        <br />
+        <input type="text" id="nama" name="nama" required />
+        <br />
+
+        <!-- Penerapan input email -->
+        <label for="email">Email:</label>
+        <br />
+        <input type="email" id="email" name="email" required />
+        <br />
+
+        <!-- Penerapan input password -->
+        <label for="pekerjaan">Password:</label>
+        <br />
+        <input type="password" id="pekerjaan" name="pekerjaan" required />
+        <br />
+
+        <!-- Penerapan Input Checkbox -->
+        <label>Jenis Kelamin:</label>
+        <br />
+        <label>
+          <input type="radio" name="jenis_kelamin" value="pria" required />
+          Pria
+        </label>
+        <label>
+          <input type="radio" name="jenis_kelamin" value="wanita" required />
+          Wanita
+        </label>
+        <br />
+
+        <!-- Penerapan TextArea -->
+        <label for="alasan">Alasan Mengikuti:</label>
+        <br />
+        <textarea id="alasan" name="alasan" rows="4" required></textarea>
+        <br />
+
+        <!-- Penerapan Checkbox -->
+        <label for="hobi">Hobi (Pilih satu atau lebih):</label>
+        <br />
+        <label>
+          <input type="checkbox" name="hobi" value="memasak" />
+          Ngoding
+        </label>
+        <label>
+          <input type="checkbox" name="hobi" value="olahraga" />
+          Olahraga
+        </label>
+        <label>
+          <input type="checkbox" name="hobi" value="musik" />
+          Musik
+        </label>
+        <br />
+
+        <!-- Penerapan Input  -->
+        <label for="tanggal">Tanggal Pendaftaran:</label> <br />
+        <input type="date" id="tanggal" name="tanggal" required />
+        <br />
+
+        <button>Submit</button>
+      </form>
+
+      <!-- Penerapan Semantic HTML : Footer -->
+      <br /><br />
+      <footer>
+        Terimakasih<br />
+        <b>AMCC</b><br />
+        <i>Learning by doing</i><br />
+        <i>Learning by teaching</i><br />
+      </footer>
+    </main>
+  </body>
+</html>
