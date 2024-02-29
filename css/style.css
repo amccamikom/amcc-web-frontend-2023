@@ -5,3 +5,14 @@
 .flex {
   display: flex;
 }
+
+nav ul{
+ display: flex;
+ list-style-type: none;
+ gap: 2rem;
+}
+
+nav svg{
+  height: 2rem;
+  width: 2rem;
+}
