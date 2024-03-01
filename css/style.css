@@ -9,25 +9,7 @@
 }
 
 .flex {
-  display: flex;
-}
-
-nav ul{
- display: flex;
- list-style-type: none;
- gap: 2rem;
-}
-
-nav svg{
-  height: 2rem;
-  width: 2rem;
-}
-
-main .title {
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: 600;  
-  color: var(--font-color);
+  
 }
 
 /* Mobile Landscape Mode */
