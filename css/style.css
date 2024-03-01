@@ -1,3 +1,4 @@
+/* Global Style */
 :root {
   /* Declaration Variabel CSS */
   --font-color: #241740;
@@ -9,9 +10,12 @@
 }
 
 section, footer {
-  margin-bottom: 10rem !important; 
+  margin-
+  bottom: 10rem !important; 
 }
 
+
+/* Button Style */
 .btn {
   color: white;
   background-color: var(--primary-color-);
@@ -31,8 +35,87 @@ section, footer {
 }
 
 
+/* NAVIGATION BAR */
+nav {
+  position: sticky;
+  top: 0;
+  box-shadow: 0px 5px 5px 0px rgb(216, 216, 216, 0.5);
+  background-color: white;
+}
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-between;  
+  align-items: center;
+  padding: 0 1rem;    
+}
+.navbar-logo {
+  width: 100px;
+}
+.navbar-logo img {
+  width: 100%;
+}
+nav ul {
+  display: none;  
+}
+.navbar-wrapper ul li a {
+  text-decoration: none;
+  color: var(--font-color);
+  font-weight: 600;
+  padding: .2rem;
+  border-radius: 5px;
+}
+.navbar-wrapper ul li:hover a {
+  color: white;
+  background-color: var(--primary-color-);  
+}
+.navbar-hamburger {
+  margin: .6rem;   
+}
+.navbar-hamburger svg {
+  font-size: 30px;
+  text-align: end;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero-wrapper {
+  display: flex;      
+  flex-wrap: wrap;  
+  justify-content: space-between;
+  margin: 8rem auto; 
+}
+.hero-wrapper h1 {
+  color: var(--font-color);
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 2rem; 
+  line-height: 6rem;   
+}
+.hero-wrapper p {
+  color: var(--font-color);
+  opacity: .8;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  line-height: 1.5rem;
+}
+.hero-wrapper .hero-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero-wrapper .hero-item img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
 /* OUR COLLECTION */
-.hero-wrapper, .collection-wrapper {  
+.collection-wrapper {  
   margin: 0 auto;
 }
 .collection-title {  
@@ -68,90 +151,12 @@ section, footer {
   width: 100%;
 }
 
-/* NAVIGATION BAR */
-nav {
-  position: sticky;
-  top: 0;
-  box-shadow: 0px 5px 5px 0px rgb(216, 216, 216, 0.5);
-  background-color: white;
-}
-.navbar-wrapper {
-  display: flex;
-  justify-content: flex-end;  
-  align-items: center;
-  padding: 0 1rem;    
-}
-.navbar-logo {
-  width: 100px;
-  display: none;
-}
-.navbar-logo img {
-  width: 100%;
-}
-nav ul {
-  display: none;  
-}
-.navbar-wrapper ul li a {
-  text-decoration: none;
-  color: var(--font-color);
-  font-weight: 600;
-  padding: .2rem;
-  border-radius: 5px;
-}
-.navbar-wrapper ul li:hover a {
-  color: white;
-  background-color: var(--primary-color-);  
-}
-.navbar-hamburger {
-  margin: .6rem;   
-}
-.navbar-hamburger svg {
-  font-size: 30px;
-  text-align: end;
-}
-
-/* Hero */
-.hero-wrapper {
-  display: flex;      
-  flex-wrap: wrap;  
-  justify-content: space-between;  
-}
-.hero-wrapper h1 {
-  color: var(--font-color);
-  font-size: 5rem;
-  font-weight: 700;
-  margin-bottom: 2rem; 
-  line-height: 6rem;   
-}
-.hero-wrapper p {
-  color: var(--font-color);
-  opacity: .8;
-  font-size: 1rem;
-  font-weight: 500;
-  margin-bottom: 2rem;
-  line-height: 1.5rem;
-}
-.hero-wrapper .hero-item {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.hero-wrapper .hero-item img {
-  width: 100%;
-  height: 80%;
-  object-fit: cover;
-  border-radius: 30px;
-}
-
 /* Mobile Landscape Mode */
 @media screen and (min-width: 640px) {
   .collection-wrapper, .hero-wrapper {
     max-width: 640px;      
   }
-  
+ 
   /* Our Collections */
   .collection-container .collection-item {
     width: 40%; 
@@ -163,7 +168,7 @@ nav ul {
   .collection-wrapper, .hero-wrapper {
     max-width: 768px;      
   }  
-
+  
   /* Navigation Bar */
   .navbar-wrapper {
     padding: 0 4rem;
@@ -188,6 +193,9 @@ nav ul {
     max-width: 1024px;      
   }
 
+  .hero-wrapper{
+    margin: 0 auto;
+  }
 
   /* Our Collections */
   .collection-container .collection-item {
