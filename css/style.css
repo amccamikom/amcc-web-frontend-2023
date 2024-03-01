@@ -4,13 +4,46 @@
   --primary-color-: #9769FF;
 }
 
+/* Template Style */
 * {
   font-family: "Poppins", sans-serif;  
 }
 
-.flex {
-  
+section,
+footer {
+  margin- bottom: 10rem !important;
 }
+
+.btn {
+  color: white;
+  background-color: var(--primary-color-);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 1rem;
+  width: fit-content;
+}
+
+.btn:hover {
+  background-color: #7a42fc;
+}
+
+.collection-wrapper,
+.hero-wrapper {
+  padding: 0 1rem;
+}
+
+
+/* Navbar */
+
+/* Hero */
+
+/* Our Collection */
+
+/* Footer */
+
 
 /* Mobile Landscape Mode */
 @media screen and (min-width: 640px) {
