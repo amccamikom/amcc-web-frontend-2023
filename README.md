@@ -1,8 +1,4 @@
-<h1 align="center">
-Repository Frontend Web Programming ✨
-</h1>
 
-<br/>
 
 <div align="center">
   <picture>
@@ -13,15 +9,22 @@ Repository Frontend Web Programming ✨
 
 <br/>
 
+<div align="center">
+  <h1>Repository Frontend Web Programming
+    <img src="https://user-images.githubusercontent.com/74038190/216122028-c05b52fb-983e-4ee8-8811-6f30cd9ea5d5.png" width="80"/>
+  </h1>
+</div>
+
 <p align="center">
 Hello Gengks! Di sini, kalian bakal nemuin segala materi seru tentang pembelajaran Frontend Web buat kalian yang tergabung di Divisi Web Programming Front End AMCC 2023/2024.
+  
 </p>
 
 <br/>
 <br/>
 
 
-## Hal yang akan dipelajari
+## Hal yang akan dipelajari 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -41,7 +44,11 @@ Materi untuk setiap pertemuan dapat diakses dengan mudah melalui penggantian bra
 <br/>
 <br/>
 
-## Detail Materi yang akan dipelajari
+<h1>
+  Detail Materi yang akan dipelajari 
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Blue%20Book.png" alt="Blue Book" width="25" height="25" />
+</h1>
+
 - [x] Pertemuan 1 ✅
     - [x] HTML
         - [x] Overview mengenai Web Development (FE & BE)
