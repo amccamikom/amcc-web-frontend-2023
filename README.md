@@ -1,12 +1,25 @@
-# Repository Frontend Web Programming ✨
+<h1 align="center">
+Repository Frontend Web Programming ✨
+</h1>
 
-<center>
-  
-![alt text](https://c.tenor.com/oifgBY6atjsAAAAC/tenor.gif)
+<br/>
 
-</center>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://c.tenor.com/oifgBY6atjsAAAAC/tenor.gif">
+    <img alt="Taipy" src="https://c.tenor.com/oifgBY6atjsAAAAC/tenor.gif" width="600" />
+  </picture>
+</div>
 
+<br/>
+
+<p align="center">
 Hello Gengks! Di sini, kalian bakal nemuin segala materi seru tentang pembelajaran Frontend Web buat kalian yang tergabung di Divisi Web Programming Front End AMCC 2023/2024.
+</p>
+
+<br/>
+<br/>
+
 
 ## Hal yang akan dipelajari
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -14,6 +27,8 @@ Hello Gengks! Di sini, kalian bakal nemuin segala materi seru tentang pembelajar
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
+<br/>
+<br/>
 
 ## Cara Mengakses Materi Setiap Pertemuan
 
@@ -32,7 +47,7 @@ Materi untuk setiap pertemuan dapat diakses dengan mudah melalui penggantian bra
         - [x] Form HTML (Input, Radio, Checkbox, File)
         - [x] Table dan List HTML (Ordered List, Unordered List, tr, td )
     - [x] Git & GitHub
-        - [x] [Download Source Code dari Github (zip)](link_modul_pertemuan1)
+        - [x] Download Source Code dari Github (zip)
 
 - [x] Pertemuan 2
     - [x] CSS
