@@ -38,8 +38,11 @@ Materi untuk setiap pertemuan dapat diakses dengan mudah melalui penggantian bra
 2. **Pilih Pertemuan:** Pilih branch yang sesuai dengan pertemuan yang ingin diakses.
 3. **Dapatkan Materi:** Setelah beralih ke branch yang benar, Anda dapat melihat dan mengunduh materi pembelajaran untuk pertemuan tersebut.
 
+<br/>
+<br/>
+
 ## Detail Materi yang akan dipelajari
-- [x] Pertemuan 1
+- [x] Pertemuan 1 ✅
     - [x] HTML
         - [x] Overview mengenai Web Development (FE & BE)
         - [x] Perkenalan dasar HTML
@@ -49,12 +52,12 @@ Materi untuk setiap pertemuan dapat diakses dengan mudah melalui penggantian bra
     - [x] Git & GitHub
         - [x] Download Source Code dari Github (zip)
 
-- [x] Pertemuan 2
+- [x] Pertemuan 2 ✅
     - [x] CSS
         - [x] CSS dasar (CSS Unit, Selector, Pseudo Class, Styling)
         - [x] [Link Modul Pertemuan 2](link_modul_pertemuan2)
 
-- [x] Pertemuan 3
+- [x] Pertemuan 3 ✅
     - [x] CSS
         - [x] CSS Layouting (Box Model, Display, Flexblox, Position, Responsive)
         - [x] [Link Modul Pertemuan 3](link_modul_pertemuan3)
