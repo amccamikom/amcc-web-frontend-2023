@@ -1,6 +1,19 @@
-# amcc-web-frontend-2023
+# Repository Frontend Web Programming ✨
 
-Repository ini berisi materi pembelajaran untuk anggota Divisi Web Programming Front End AMCC 2023/2024.
+<center>
+  
+![alt text](https://c.tenor.com/oifgBY6atjsAAAAC/tenor.gif)
+
+</center>
+
+Hello Gengks! Di sini, kalian bakal nemuin segala materi seru tentang pembelajaran Frontend Web buat kalian yang tergabung di Divisi Web Programming Front End AMCC 2023/2024.
+
+## Hal yang akan dipelajari
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
 
 ## Cara Mengakses Materi Setiap Pertemuan
 
