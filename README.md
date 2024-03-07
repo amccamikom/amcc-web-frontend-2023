@@ -72,7 +72,7 @@ Materi untuk setiap pertemuan dapat diakses dengan mudah melalui penggantian bra
 - [ ] Pertemuan 4
     - [ ] Tailwind
         - [ ] Apa itu Tailwind CSS dan keuntungannya 
-        - [ ] Instalasi dan konfigurasi awal (via npm)
+        - [ ] Instalasi dan konfigurasi awal (via cdn)
         - [ ] Penggunaan utility classes pada Tailwind CSS
         - [ ] [Link Modul Pertemuan 4](link_modul_pertemuan4)
 
