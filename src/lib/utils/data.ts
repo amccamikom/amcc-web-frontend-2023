@@ -1,4 +1,4 @@
-import { Pengurus } from "./interface/perngurus";
+import { Pengurus } from "../types/perngurus";
 
 export const Koor: Pengurus = {
   name: "Figo",
