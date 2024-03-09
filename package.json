@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "preview": "node ./dist/index.js",
-    "dev": "nodemon --exec ts-node --quiet  index.ts",
+    "show": "ts-node index.ts",
+    "dev": "bun --watch index.ts",
     "test": "jest"
   },
   "author": "figomager",
@@ -23,10 +24,15 @@
     "prettier": "3.2.5",
     "ts-jest": "^29.1.2",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.2"
+    "typescript": "^5.4.2",
+    "bun-types": "latest"
   },
   "dependencies": {
     "chalk": "4.1.2",
+    "elysia": "^0.8.17",
     "nodemon": "^3.1.0"
+  },
+  "bun-create": {
+    "start": "bun run index.ts"
   }
 }
