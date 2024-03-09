@@ -58,23 +58,25 @@ Materi untuk setiap pertemuan dapat diakses dengan mudah melalui penggantian bra
         - [x] Table dan List HTML (Ordered List, Unordered List, tr, td )
     - [x] Git & GitHub
         - [x] Download Source Code dari Github (zip)
+    - [x] [Link Modul Pertemuan 1](https://medium.com/amcc-amikom/langkah-awal-dalam-web-development-pengenalan-dasar-html-0cee1e9fd19a)
+
 
 - [x] Pertemuan 2 ✅
     - [x] CSS
         - [x] CSS dasar (CSS Unit, Selector, Pseudo Class, Styling)
-        - [x] [Link Modul Pertemuan 2](link_modul_pertemuan2)
+        - [x] [Link Modul Pertemuan 2](https://medium.com/amcc-amikom/memahami-dasar-dasar-cascading-style-sheet-css-76c5ecfe4a8d)
 
 - [x] Pertemuan 3 ✅
     - [x] CSS
         - [x] CSS Layouting (Box Model, Display, Flexblox, Position, Responsive)
-        - [x] [Link Modul Pertemuan 3](link_modul_pertemuan3)
+        - [x] [Link Modul Pertemuan 3](https://medium.com/amcc-amikom/css-layouting-unveiled-strategies-for-effective-web-design-e07179744158)
 
-- [ ] Pertemuan 4
-    - [ ] Tailwind
-        - [ ] Apa itu Tailwind CSS dan keuntungannya 
-        - [ ] Instalasi dan konfigurasi awal (via cdn)
-        - [ ] Penggunaan utility classes pada Tailwind CSS
-        - [ ] [Link Modul Pertemuan 4](link_modul_pertemuan4)
+- [x] Pertemuan 4 ✅
+    - [x] Tailwind
+        - [x] Apa itu Tailwind CSS dan keuntungannya 
+        - [x] Instalasi dan konfigurasi awal (via cdn)
+        - [x] Penggunaan utility classes pada Tailwind CSS
+        - [x] [Link Modul Pertemuan 4](https://medium.com/amcc-amikom/tailwind-css-unveiled-simplifying-web-styling-with-practical-utility-classes-905817ef7ad2)
 
 - [ ] Pertemuan 5
     - [ ] Tailwind
