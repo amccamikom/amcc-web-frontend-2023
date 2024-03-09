@@ -124,13 +124,21 @@ amcc-web-frontend-2023
 ├─ .gitignore
 ├─ .prettierignore
 ├─ .prettierrc
+├─ babel.config.js
+├─ Dockerfile
 ├─ index.ts
+├─ jest.config.ts
 ├─ package.json
 ├─ pnpm-lock.yaml
 ├─ README.md
 ├─ src
 │  ├─ data.ts
-│  └─ interface.ts
+│  ├─ interface
+│  │  └─ perngurus.ts
+│  └─ utils
+│     └─ logProfile.ts
+├─ test
+│  └─ profile.test.ts
 └─ tsconfig.json
 
 ```
