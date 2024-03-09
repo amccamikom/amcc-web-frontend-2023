@@ -1,5 +1,5 @@
 import chalk from "chalk";
-import { Pengurus } from "../interface/perngurus";
+import { Pengurus } from "../types/perngurus";
 
 const logProfil = (profileData: Pengurus) => {
   console.log(chalk.bold.rgb(255, 0, 255)("Profil Koor:"));

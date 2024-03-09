@@ -1,5 +1,6 @@
 import chalk from "chalk";
-import logProfile from "../src/utils/logProfile";
+import logProfile from "../src/lib/utils/logProfile";
+import { expect, jest, test } from "@jest/globals";
 
 console.log = jest.fn();
 
