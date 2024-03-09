@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,24 +9,76 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <!-- Google Fonts : Poppins -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
- 
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+
+  <!-- CDN -->
+
   <!-- Custom Style CSS -->
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/css-reset.css">
+
+  <!-- Alpine -->
+  <script src="//unpkg.com/alpinejs" defer></script>
 </head>
+
 <body>
-  <!-- Havbar -->
-  <nav></nav>
+  <!-- Navbar -->
+  <nav>
+    <!-- <div class="">
+      <a href="" class=""><img src="./images/logo.png" alt="Logo"></a>
+      <ul>
+        <li><a href="">Products</a></li>
+        <li><a href="">Pricing</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">FAQs</a></li>
+      </ul>
+      <div class="navbar-hamburger">
+        <img src="./images/hamburger.svg" alt="">
+      </div>
+    </div> -->
+  </nav>
 
   <!-- Hero Sectopm -->
-  <section></section>
-  
+  <section>
+    <!-- <div class="">
+      <div class="">
+        <h1>Find Your Dream Shoes</h1>
+        <p>Find your shoes from our various collections. Here shoes are endless and profit is also endless</p>
+        <button class="">Explore more </button>
+      </div>
+      <div class="">
+        <img src="./images/header.jpg" alt="header">
+      </div>
+    </div> -->
+  </section>
+
   <!-- Our Collection -->
-  <section></section>
+  <section>
+    <div class="container">
+      <h2 class="text-2xl font-semibold py-4">Our Collections</h2>
+      <div x-data class="flex flex-wrap">
+        <template x-for="_ in new Array(10).fill(null)">
+          <div class="px-4 py-2 w-[30%]">
+            <div class=""><img src="./images/1.jpg"></div>
+            <div class="text-center">
+              <div>Air griffey max 1</div>
+              <div>Rp 230.000</div>
+            </div>
+          </div>
+        </template>
+  </section>
 
   <!-- Footer -->
-  <footer></footer>
-
+  <footer>
+    <!-- <div class="">
+      <img src="images/logo.png" alt="Logo Footer" height="50px" />
+    </div>
+    <h1>ShoesStore.co</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quo repellat iste impedit velit nulla? Aut
+      quidem harum optio! Error dolorem maxime aliquid enim, at ullam atque quod voluptates? Placeat?</p> -->
+  </footer>
 </body>
 </html>
