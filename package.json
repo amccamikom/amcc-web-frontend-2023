@@ -1,0 +1,19 @@
+{
+  "name": "amcc-web-frontend-2023",
+  "version": "1.0.0",
+  "description": "amcc web frontend 2023 node module !!",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon --exec ts-node --quiet  index.ts"
+  },
+  "author": "figomager",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2"
+  }
+}
