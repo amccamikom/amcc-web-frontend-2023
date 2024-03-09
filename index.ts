@@ -1,5 +1,4 @@
 import { Koor } from "./src/data";
-const SiapaKoor = () => {
-    console.log(Koor);
-}
-SiapaKoor();
+import { logProfil } from "./src/utils/logProfile";
+
+logProfil(Koor)
