@@ -1,7 +1,7 @@
 import chalk from "chalk";
 import { Pengurus } from "../interface/perngurus";
 
-export const logProfil = (profileData: Pengurus) => {
+const logProfil = (profileData: Pengurus) => {
   console.log(chalk.bold.rgb(255, 0, 255)("Profil Koor:"));
   console.log(
     chalk.keyword("orange")("👨‍💻 Nama:") +
@@ -24,3 +24,5 @@ export const logProfil = (profileData: Pengurus) => {
       chalk.bgMagentaBright.whiteBright(profileData.waifu?.join(", ")),
   );
 };
+
+export default logProfil;
