@@ -4,7 +4,7 @@
   "description": "amcc web frontend 2023 node module !!",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tailwindcss -i ./src/app.css -o ./public/output.css",
     "preview": "node ./dist/index.js",
     "show": "ts-node src/index.ts",
     "dev": "bun --watch src/app.ts",
