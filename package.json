@@ -9,7 +9,7 @@
     "show": "ts-node src/index.ts",
     "dev": "bun --watch src/app.ts",
     "test": "jest",
-    "buildCommand": "bun run build:vercel"
+    "build:vercel": "bun run build && bun scripts/transform-paths.ts"
   },
   "author": "figomager",
   "license": "ISC",
