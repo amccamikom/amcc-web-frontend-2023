@@ -8,7 +8,8 @@
     "preview": "node ./dist/index.js",
     "show": "ts-node src/index.ts",
     "dev": "bun --watch src/app.ts",
-    "test": "jest"
+    "test": "jest",
+    "buildCommand": "bun run build:vercel"
   },
   "author": "figomager",
   "license": "ISC",
