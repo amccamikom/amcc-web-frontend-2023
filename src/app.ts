@@ -5,6 +5,7 @@ import { autoroutes } from "elysia-autoroutes";
 import { logDivisiInfo, logServerStatus } from "./lib/utils/logDivisiInfo";
 
 const app = new Elysia()
+  .use(html())
   .use(
     autoroutes({
       routesDir: "./routes", // -> optional, defaults to './routes'
@@ -13,21 +14,20 @@ const app = new Elysia()
   )
   .use(
     tailwind({
-      path: "/public/output.css", 
-      source: "./src/app.css", 
-      config: "./tailwind.config.ts", 
+      path: "/public/output.css",
+      source: "./src/app.css",
+      config: "./tailwind.config.ts",
       options: {
-        minify: true, 
+        minify: true,
         map: true,
-        autoprefixer: false, 
+        autoprefixer: false,
       },
     }),
   )
-  .use(html())
   .listen(3000, ({ port, hostname }) => {
     logServerStatus(hostname, port.toString());
     console.log();
-    
+
     logDivisiInfo();
   });
 
