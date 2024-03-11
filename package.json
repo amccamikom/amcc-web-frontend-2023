@@ -7,7 +7,7 @@
     "build": "tailwindcss -i ./src/app.css -o ./public/output.css",
     "preview": "node ./dist/index.js",
     "show": "ts-node src/index.ts",
-    "dev": "bun --watch src/app.ts",
+    "dev": "concurrently \"bun --watch src/app.ts\" \"bun run build --watch\"",
     "test": "jest",
     "build:vercel": "bun run build && bun scripts/transform-paths.ts"
   },
@@ -36,6 +36,7 @@
     "@elysiajs/swagger": "^0.8.5",
     "@gtramontina.com/elysia-tailwind": "2.0.0",
     "chalk": "4.1.2",
+    "concurrently": "^8.2.2",
     "elysia": "^0.8.17",
     "elysia-autoroutes": "^0.5.0",
     "nodemon": "^3.1.0",

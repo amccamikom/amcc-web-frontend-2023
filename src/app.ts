@@ -4,7 +4,7 @@ import { Elysia } from "elysia";
 import { autoroutes } from "elysia-autoroutes";
 import { logDivisiInfo, logServerStatus } from "./lib/utils/logDivisiInfo";
 
-const app = new Elysia()
+export const app = new Elysia()
   .use(html())
   .use(
     autoroutes({
