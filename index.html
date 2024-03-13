@@ -14,7 +14,7 @@
     rel="stylesheet">
 
   <!-- Custom Style CSS -->
-  <link rel="stylesheet" href="./dist/output.css">
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/css-reset.css">
 
   <!-- Alpine -->
@@ -62,7 +62,7 @@
       <h2 class="text-2xl font-semibold py-4">Our Collections</h2>
       <div x-data class="flex flex-wrap justify-between">
         <template x-for="_ in new Array(9).fill(null)">
-          <div class="px-4 py-2 md:w-[30%]">
+          <div class="px-4 py-2 md:w-[30%] border-2 rounded-xl">
             <div class=""><img src="./images/1.jpg"></div>
             <div class="text-center">
               <div>Air griffey max 1</div>
@@ -88,5 +88,3 @@
 </body>
 
 </html>
-
-
