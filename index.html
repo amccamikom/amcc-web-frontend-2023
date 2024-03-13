@@ -13,7 +13,6 @@
     href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
 
-
   <!-- CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 
@@ -24,12 +23,6 @@
   <!-- Alpine -->
   <script src="//unpkg.com/alpinejs" defer></script>
 </head>
-
-<style>
-  .card {
-    @apply w-24 bg-red-600;
-  }
-</style>
 
 <body>
   <!-- Navbar -->
@@ -67,12 +60,12 @@
   </section>
 
   <!-- Our Collection -->
-  <section class="flex w-full md:min-h-screen h-full w-full justify-center">
+  <section class="flex w-full px-8 md:min-h-screen h-full w-full justify-center my-8">
     <div class="container">
       <h2 class="text-2xl font-semibold py-4">Our Collections</h2>
-      <div x-data class="flex flex-wrap">
+      <div x-data class="flex flex-wrap justify-between">
         <template x-for="_ in new Array(9).fill(null)">
-          <div class="px-4 py-2 w-[30%]">
+          <div class="px-4 py-2 md:w-[30%]">
             <div class=""><img src="./images/1.jpg"></div>
             <div class="text-center">
               <div>Air griffey max 1</div>
