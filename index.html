@@ -14,8 +14,7 @@
     rel="stylesheet">
 
   <!-- Custom Style CSS -->
-  <link rel="stylesheet" href="./dist/output.css">
-  <link rel="stylesheet" href="./css/css-reset.css">
+  <link rel="stylesheet" href="./dist/output.css">  
 
   <!-- Alpine -->
   <script src="//unpkg.com/alpinejs" defer></script>
@@ -23,31 +22,31 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="sticky  top-0 flex w-full justify-center shadow px-8 bg-white">
-    <div class="container flex w-full justify-between items-center md:px-0">
+  <nav class="sticky top-0 flex w-full justify-center shadow px-8 bg-white">
+    <div class="container flex w-full justify-between items-center">
       <div href="" class="h-20 w-20 inline-block">
-        <img class="w-fullh-full object-cover py-2" src="./images/logo.png" alt="Logo">
+        <img class="w-full h-full object-cover py-2" src="./images/logo.png" alt="Logo">
       </div>
-      <ul class="hidden md:flex  gap-4">
+      <ul class="hidden gap-4">
         <li><a href="#products" class="hover:text-violet-600">Products</a></li>
         <li><a href="#pricing" class="hover:text-violet-600">Pricing</a></li>
         <li><a href="#" class="hover:text-violet-600">About</a></li>
         <li><a href="#FAQs" class="hover:text-violet-600">FAQs</a></li>
       </ul>
-      <div class="cursor-pointer ">
-        <img src="./images/mdi--cart.svg" alt="Cart-image" style="width: 40px;" class="md:block hidden">
+      <div class="cursor-pointer">
+        <img src="./images/mdi--cart.svg" alt="Cart-image" style="width: 40px;" class="hidden">
       </div>
-      <div class="cursor-pointer md:hidden">
+      <div class="cursor-pointer">
         <img src="./images/hamburger.svg" alt="" class="h-10 ">
       </div>
     </div>
   </nav>
 
   <!-- Hero Section -->
-  <section class="md:h-screen flex w-full justify-center mt-12 px-8" id="products">
-    <div class="container px-8 md:px-0 flex md:flex-row flex-col-reverse gap-8 justify-between items-center">
+  <section class="flex w-full justify-center mt-12 px-8" id="products">
+    <div class="container px-8 flex flex-col-reverse gap-8 justify-between items-center">
       <div class="w-full flex flex-col gap-6">
-        <h1 class="text-4xl md:text-[5rem] leading-tight font-bold">Find Your Dream Shoes</h1>
+        <h1 class="text-4xl leading-tight font-bold">Find Your Dream Shoes</h1>
         <p>Find your shoes from our various collections. Here shoes are endless and profit is also endless</p>
         <div>
           <button class="bg-violet-600 text-white px-4 py-4 rounded-md hover:bg-violet-500">Explore more </button>
@@ -60,12 +59,12 @@
   </section>
 
   <!-- Our Collection -->
-  <section class="flex w-full px-8 md:min-h-screen h-full justify-center my-8 mt-[200px]" id="pricing">
+  <section class="flex w-full px-8 h-full justify-center my-8 mt-[200px]" id="pricing">
     <div class="container">
       <h2 class="text-2xl font-semibold py-4 text-center">Our Collections</h2>
       <div x-data class="flex flex-wrap justify-between space-y-10">
         <template x-for="_ in new Array(9).fill(null)">
-          <div class="px-4 py-2 md:w-[30%]">
+          <div class="px-4 py-2">
             <div class=""><img src="./images/1.jpg"></div>
             <div class="text-center mt-3 space-y-2">
               <div>Air griffey max 1</div>
@@ -80,7 +79,7 @@
     <div class="bg-violet-600 text-center p-20 w-full justify-center space-y-6">
       <h1 class="text-white text-3xl font-semibold">Subscribe to our newsletter</h1>
       <!-- search start -->
-      <div class="search flex rounded-2xl bg-white md:w-6/12 w-full lg:w-6/12 mx-auto">
+      <div class="search flex rounded-2xl bg-white w-full mx-auto">
         <input type=" email" name="email" id="email" placeholder="Enter your mail"
           class="w-full border-none px-4 text-gray-900 outline-none rounded-2xl">
         <button class="m-2 rounded-md px-3 py-2 text-white bg-violet-500">
@@ -94,16 +93,16 @@
   <!-- Footer -->
   <footer class="bg-white">
     <div class="px-8 pb-12 pt-12 py-12 text-black">
-      <div class="w-full mx-auto sm:px-6 lg:px-8 flex flex-wrap justify-between">
+      <div class="w-full mx-auto flex flex-wrap justify-between">
         <!-- Column 1: Logo and Description -->
-        <div class="text-black md:w-auto mb-8 md:mb-0">
+        <div class="text-black mb-8 ">
           <img src="./images/logo.png" alt="" class="h-24">
           <h1 class="text-lg font-bold">ShoesStore.co</h1>
           <p class="mb-4 w-72">Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
             eius.</p>
         </div>
         <!-- Column 2: Navigation -->
-        <div class="text-black w-full md:w-auto mb-8 md:mb-0">
+        <div class="text-black w-full mb-8">
           <h2 class="text-lg font-semibold mb-4">Beranda</h2>
           <ul>
             <li class="mb-2"><a href="#" class="hover:text-violet-600">Product</a></li>
@@ -113,7 +112,7 @@
           </ul>
         </div>
         <!-- Column 3: Social Media -->
-        <div class="text-black w-full md:w-auto">
+        <div class="text-black w-full">
           <h2 class="text-lg font-semibold mb-4">Social Media</h2>
           <div class="items-center space-y-2">
             <div>
