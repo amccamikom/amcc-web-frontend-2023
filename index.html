@@ -23,28 +23,31 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="sticky  top-0 flex w-full justify-center shadow  bg-white">
-    <div class="container flex w-full justify-between items-center px-8 md:px-0">
+  <nav class="sticky  top-0 flex w-full justify-center shadow px-8 bg-white">
+    <div class="container flex w-full justify-between items-center md:px-0">
       <div href="" class="h-20 w-20 inline-block">
-        <img class="w-fullh-full object-cover  " src="./images/logo.png" alt="Logo">
+        <img class="w-fullh-full object-cover py-2" src="./images/logo.png" alt="Logo">
       </div>
       <ul class="hidden md:flex  gap-4">
-        <li><a href="">Products</a></li>
-        <li><a href="">Pricing</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">FAQs</a></li>
+        <li><a href="#products" class="hover:text-violet-600">Products</a></li>
+        <li><a href="#pricing" class="hover:text-violet-600">Pricing</a></li>
+        <li><a href="#" class="hover:text-violet-600">About</a></li>
+        <li><a href="#FAQs" class="hover:text-violet-600">FAQs</a></li>
       </ul>
+      <div class="cursor-pointer ">
+        <img src="./images/mdi--cart.svg" alt="Cart-image" style="width: 40px;" class="md:block hidden">
+      </div>
       <div class="cursor-pointer md:hidden">
-        <img src="./images/hamburger.svg" alt="">
+        <img src="./images/hamburger.svg" alt="" class="h-10 ">
       </div>
     </div>
   </nav>
 
-  <!-- Hero Sectopm -->
-  <section class="md:h-screen flex w-full justify-center mt-12">
+  <!-- Hero Section -->
+  <section class="md:h-screen flex w-full justify-center mt-12 px-8" id="products">
     <div class="container px-8 md:px-0 flex md:flex-row flex-col-reverse gap-8 justify-between items-center">
       <div class="w-full flex flex-col gap-6">
-        <h1 class="text-4xl md:text-[5rem] leading-tight	 font-bold">Find Your Dream Shoes</h1>
+        <h1 class="text-4xl md:text-[5rem] leading-tight font-bold">Find Your Dream Shoes</h1>
         <p>Find your shoes from our various collections. Here shoes are endless and profit is also endless</p>
         <div>
           <button class="bg-violet-600 text-white px-4 py-4 rounded-md hover:bg-violet-500">Explore more </button>
@@ -57,14 +60,14 @@
   </section>
 
   <!-- Our Collection -->
-  <section class="flex w-full px-8 md:min-h-screen h-full justify-center my-8">
+  <section class="flex w-full px-8 md:min-h-screen h-full justify-center my-8 mt-[200px]" id="pricing">
     <div class="container">
-      <h2 class="text-2xl font-semibold py-4">Our Collections</h2>
-      <div x-data class="flex flex-wrap justify-between">
+      <h2 class="text-2xl font-semibold py-4 text-center">Our Collections</h2>
+      <div x-data class="flex flex-wrap justify-between space-y-10">
         <template x-for="_ in new Array(9).fill(null)">
           <div class="px-4 py-2 md:w-[30%]">
             <div class=""><img src="./images/1.jpg"></div>
-            <div class="text-center">
+            <div class="text-center mt-3 space-y-2">
               <div>Air griffey max 1</div>
               <div>Rp 230.000</div>
             </div>
@@ -72,21 +75,63 @@
         </template>
   </section>
 
+  <!-- fqas -->
+  <section id="FAQs" class="mt-[200px]">
+    <div class="bg-violet-600 text-center p-20 w-full justify-center space-y-6">
+      <h1 class="text-white text-3xl font-semibold">Subscribe to our newsletter</h1>
+      <!-- search start -->
+      <div class="search flex rounded-2xl bg-white md:w-6/12 w-full lg:w-6/12 mx-auto">
+        <input type=" email" name="email" id="email" placeholder="Enter your mail"
+          class="w-full border-none px-4 text-gray-900 outline-none rounded-2xl">
+        <button class="m-2 rounded-md px-3 py-2 text-white bg-violet-500">
+          Subscribe
+        </button>
+      </div>
+      <!-- search end -->
+    </div>
+  </section>
+
   <!-- Footer -->
-  <footer class="px-8 md:px-0 mt-12 py-8 text-white justify-center flex bg-violet-600 w-full min-h-[36vh]">
-    <div class="container flex flex-col">
-      <div class="w-72">
-        <div class="h-24 w-fit">
-          <img class="object-cover w-full h-full" src="images/logo.png" alt="Logo Footer" />
+  <footer class="bg-white">
+    <div class="px-8 pb-12 pt-12 py-12 text-black">
+      <div class="w-full mx-auto sm:px-6 lg:px-8 flex flex-wrap justify-between">
+        <!-- Column 1: Logo and Description -->
+        <div class="text-black md:w-auto mb-8 md:mb-0">
+          <img src="./images/logo.png" alt="" class="h-24">
+          <h1 class="text-lg font-bold">ShoesStore.co</h1>
+          <p class="mb-4 w-72">Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
+            eius.</p>
         </div>
-        <h1 class="text-lg font-bold">ShoesStore.co</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quo repellat iste impedit velit nulla? Aut
-          quidem harum optio! Error dolorem maxime aliquid enim, at ullam atque quod voluptates? Placeat?</p>
+        <!-- Column 2: Navigation -->
+        <div class="text-black w-full md:w-auto mb-8 md:mb-0">
+          <h2 class="text-lg font-semibold mb-4">Beranda</h2>
+          <ul>
+            <li class="mb-2"><a href="#" class="hover:text-violet-600">Product</a></li>
+            <li class="mb-2"><a href="#" class="hover:text-violet-600">Pricing</a></li>
+            <li class="mb-2"><a href="#" class="hover:text-violet-600">About</a></li>
+            <li class="mb-2"><a href="#" class="hover:text-violet-600">FAQs</a></li>
+          </ul>
+        </div>
+        <!-- Column 3: Social Media -->
+        <div class="text-black w-full md:w-auto">
+          <h2 class="text-lg font-semibold mb-4">Social Media</h2>
+          <div class="items-center space-y-2">
+            <div>
+              <a href="#" class="hover:text-black flex space-y-2 space-x-3">
+                <img src="./images/instagram.svg" alt="" class="h-9">
+                <h1 class="hover:text-violet-600">Instagram</h1>
+              </a>
+            </div>
+            <div>
+              <a href="#" class="hover:text-black flex space-y-2 space-x-3">
+                <img src="./images/wa.svg" alt="" class="h-9">
+                <h1 class="hover:text-violet-600">WhatsApp</h1>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </footer>
 </body>
 
 </html>
-
-
