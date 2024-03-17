@@ -79,13 +79,13 @@ Materi untuk setiap pertemuan dapat diakses dengan mudah melalui penggantian bra
     - [x] Penggunaan utility classes pada Tailwind CSS
     - [x] [Link Modul Pertemuan 4](https://medium.com/amcc-amikom/tailwind-css-unveiled-simplifying-web-styling-with-practical-utility-classes-905817ef7ad2)
 
-- [ ] Pertemuan 5
+- [x] Pertemuan 5
 
-  - [ ] Tailwind
-    - [ ] Tailwind Arbitrary
-    - [ ] Tailwind Layer Component
-    - [ ] Responsive Tailwind
-    - [ ] [Link Modul Pertemuan 5](link_modul_pertemuan5)
+  - [x] Tailwind
+    - [x] Tailwind Arbitrary
+    - [x] Tailwind Layer Component
+    - [x] Responsive Tailwind
+    - [x] [Link Modul Pertemuan 5](https://medium.com/amcc-amikom/tailwind-css-part-2-abang-kuhh-reponsive-custom-tailwind-e14d48eaf5c1)
 
 - [ ] Pertemuan 6
 
