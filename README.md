@@ -1,6 +1,6 @@
-# Pertemuan 3 amcc-web-frontend-2023
+# Pertemuan 5 amcc-web-frontend-2023
 
-Pada pertemuan 3 kita akan mempelajari mengenai Layouting, Flexbox dan Tampilan Responsive. pada praktukum kali ini kalian akan mencoba membuat landing paga simple seperti dibawah
+Pada pertemuan 5 kita akan mempelajari mengenai Responsive, Arbitrary dan Component Layer pada tailwind. pada praktukum kali ini kalian akan mencoba membuat landing paga simple seperti dibawah
 
 ## Hal yang akan dibuat
 
